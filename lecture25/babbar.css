@@ -1,0 +1,30 @@
+/* *{
+    padding:o;
+    margin:0;
+} */
+
+.container{
+    margin:0px;
+    width:18949x;
+    height:900px;
+    background-color: black;;
+}
+
+.box{
+    margin-left:680px;
+    margin-top:200px;
+    background-color: beige;
+    width:500px;
+    height:500px;
+    border:3px solid black;
+    display:flex;
+    justify-content:center; 
+    align-items: center;
+    transition:transform 0.5s;
+}
+.box:hover{
+    transform:rotate(90deg) scale(0.1) skew(45deg);
+}
+p{
+    font-size:36px;
+}

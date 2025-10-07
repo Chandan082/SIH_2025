@@ -1,0 +1,184 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+body, html {
+    height: 100%;
+}
+.container{
+    
+     display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;8
+    /* height:100%; */
+    box-sizing:border-box;
+    width:100vw;
+    height:100vh;
+    background-color:beige;
+    overflow:none;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #47a7df 0%, #80D0C7 100%);
+}
+.main{
+    
+    /* display:flex;
+    flex-direction:column;
+    height:100%; */
+    box-sizing:border-box;
+    width:50%;
+    height:100%;
+    background-color:rgb(159, 159, 10);
+    overflow:none;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #47a7df 0%, #80D0C7 100%);
+}
+.navContainer{
+    width:100vw;
+    min-height:80px;
+    background-color:#0093E9;
+    background-image:linear-gradient(160deg,#1e1e62 0%,#80D0C7 100%); 
+     
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+nav{
+    width:100%;
+
+}
+#navlist{
+    margin-left:20px;
+    margin-right:20px;
+    list-style:none;
+    font-size:2rem;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    /* box-shadow:1px 2px 100px rgb(255, 255, 255); */
+
+}
+a{
+    text-decoration:none;
+    color:azure; 
+}
+#navitems{
+    display:flex;
+    gap:18px;
+    /* box-shadow:1px 2px 30px red; */
+
+}
+.footerclass{
+    /* box-sizing:border-box; */
+    color:azure;
+    background-color:#0093E9;
+    background-image:linear-gradient(160deg,#1e1e62 0%,#80D0C7 100%);
+    text-align:center;  
+    font-size:1.2rem;
+    width:100%;
+
+}
+.form{
+    box-sizing: border-box;
+    padding:5px;
+    /* overflow:auto; */
+    height:100%;
+    width:70%;
+    border-left:1px solid rgb(230, 230, 230);
+    border-right:1px solid rgb(249, 249, 249);
+    margin:auto;
+    background-color: white;
+    display:flex;    flex-direction:column;
+    gap:90px;
+    box-shadow:4px 8px 80px rgb(0, 0, 0);
+}
+
+.main{
+    border:1px solild black;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+    height:100%;
+    width:100%;
+}
+
+.form1{
+    overflow: auto;
+    padding-left:27px;
+    padding-bottom:27px;
+    padding-right:27px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border:solid 1px red;
+    border-radius:50px;
+    background-color: rgba(75, 253, 75, 0.542);
+}
+.form2{
+     overflow: auto;
+    padding-left:27px;
+    padding-bottom:27px;
+    padding-right:27px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between; 
+     border:solid 1px red;
+    border-radius:50px;
+
+}
+.form3{
+     border:solid 1px red;
+    border-radius:50px;
+     overflow: auto;
+    padding-left:27px;
+    padding-bottom:27px;
+    padding-right:27px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left1{
+    display: flex;
+    flex-direction: column;
+}
+.left2{
+    display: flex;
+    flex-direction: column;
+}
+.left3{
+    display: flex;
+    flex-direction: column;
+}
+
+.image1 {
+    border:solid 1px black;
+    border-radius: 25px;
+    width: 100px;      /* Set a fixed width */
+    height: auto;      /* Maintain aspect ratio */
+    max-width: 100%;   /* Prevents it from overflowing the container */
+    display: block;    /* Optional: removes inline spacing if needed */
+    margin: 10px auto; /* Optional: centers image with space */
+}
+.image2 {
+    width: 100px;      /* Set a fixed width */
+    height: auto;      /* Maintain aspect ratio */
+    max-width: 100%;   /* Prevents it from overflowing the container */
+    display: block;    /* Optional: removes inline spacing if needed */
+    margin: 10px auto; /* Optional: centers image with space */
+}
+.image3 {
+    width: 100px;      /* Set a fixed width */
+    height: auto;      /* Maintain aspect ratio */
+    max-width: 100%;   /* Prevents it from overflowing the container */
+    display: block;    /* Optional: removes inline spacing if needed */
+    margin: 10px auto; /* Optional: centers image with space */
+}
+
+
